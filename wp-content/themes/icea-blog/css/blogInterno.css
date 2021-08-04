@@ -1,0 +1,453 @@
+/*********************************************
+** Blog Interno
+*********************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Notícia Single */
+
+/* Span Blog */
+#blog .boxInterno {
+    border-left: 20px solid #E0E0E0;
+}
+#blog .boxInterno .titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #415364;
+    font-size: 72px;
+    font-weight: 900;
+    border-left: #AB1431;
+    padding-left: 20px;
+}
+
+/* Dados Autor */
+
+.autor .imagemPost {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+	display: none;
+}
+
+.autor .imagemPost img {
+	width: 100%;
+}
+
+.autor .nomeAutor {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	border-bottom: solid 1px #dfdfdf;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	color: #565662;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.autor .dataPost {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 30px;
+	color: #828282;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.autor .linksRedes {
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.autor .linksRedes .titulo {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 15px;
+	color: #828282;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.autor .linksRedes a {
+	display: inline-block;
+	margin: 0px 4px 4px 4px;
+}
+
+.autor .linksRedes a i {
+	font-size: 26px;
+	color: #AB1431;
+	transition: all 0.2s linear 0s!important;
+}
+
+.autor .linksRedes a:hover i {
+	transform: scale(1.1);
+}
+
+
+/* Notícia Single */
+
+.content_noticia {
+	margin: 0 0 70px 0;
+}
+
+.content_noticia h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #415364;
+	margin: 0 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia span.subtitulo {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: #415364;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: solid 1px #dfdfdf;
+	float: left;
+	width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia .conteudo {
+	color: #626666;
+	line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia .conteudo .wp-caption {
+	max-width: 100%!important;
+}
+
+.aligncenter,
+.alignleft,
+.alignright {
+    display: block;
+    padding: 0;
+}
+
+.aligncenter {
+    float: none;
+    margin: .5em auto 1em;
+}
+
+.alignright {
+    float: right;
+    margin: .5em 0 1em 1em;
+}
+
+.alignleft {
+    float: left;
+    margin: .5em 1em 1em 0;
+}
+
+.content_noticia .conteudo p {
+	line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia .conteudo img {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.content_noticia .conteudo h2 {
+	font-size: 20px;
+	margin: 20px 0;
+	color: #415364;
+	font-weight: bold;
+	line-height: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia .conteudo h3 {
+	font-size: 18px;
+	margin: 20px 0;
+	color: #415364;
+	line-height: 150%;
+	font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia .conteudo h4 {
+	font-size: 16px;
+	margin: 20px 0;
+	color: #415364;
+	font-weight: bold;
+	line-height: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia .conteudo iframe {
+	width: 100%;
+	height: 360px;
+}
+
+/* Marcadores */
+
+.content_noticia #marcadoresPost {
+	margin: 30px 0 0 0;
+    padding: 20px 0 10px 0;
+    border-top: solid 1px #bebebe;
+    display: inline-block;
+    width: 100%;
+}
+
+.content_noticia #marcadoresPost span {
+	margin: 0 0 20px 0;
+	color: #626060;
+	font-size: 16px;
+	float: left;
+	width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia #marcadoresPost a {
+	background: #AB1431;
+    border-radius: 50px;
+    padding: 10px 30px;
+    border: 0;
+    color: #fff!important;
+    font-weight: 400;
+	margin: 0 10px 10px 0;
+	transition: all 0.2s linear 0s!important;
+	display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content_noticia #marcadoresPost a:hover {
+	transform: scale(1.03);
+}
+
+/* Dados do Autor */
+
+.content_noticia .dadosAutor {
+	float: left;
+	width: 100%;
+	margin: 30px 0 30px 0;
+    padding: 30px 0 0 0;
+    border-top: solid 1px #F8F9FA;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.content_noticia .dadosAutor figure {
+	min-width: 100px;
+	width: 100px;
+	overflow: hidden;
+	border-radius: 150px;
+}
+
+.content_noticia .dadosAutor .texto {
+	flex: 1;
+	padding-left: 15px;
+}
+
+.content_noticia .dadosAutor .texto .nomeAutor {
+	font-weight: bold;
+}
+
+.content_noticia .dadosAutor .texto p {
+	float: left;
+    width: 100%;
+    color: #131c1d;
+    margin: 5px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Lista Comentários */
+
+.tituloComentarios {
+	display: inline-block;
+	width: 100%;
+	color: #fff!important;
+    padding: 10px;
+    background: #AB1431;
+    margin: 30px 0 40px 0!important;
+    font-size: 16px!important;
+    text-align: center;
+    position: relative;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+.tituloComentarios::before {
+	content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #AB1431;
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 5px);
+}
+
+#listaComentarios {
+	margin: 20px 0 40px 0;
+}
+
+#listaComentarios span.total-comments {
+	width: 100%;
+    display: inline-block;
+    color: #3f3f3e;
+    margin: 0px 0 20px 0;
+    font-size: 16px;
+	font-weight: bold;
+}
+
+#listaComentarios ul {
+	margin: 0;
+	padding: 0;
+}
+
+#listaComentarios ul li {
+	margin: 0 0 15px 0;
+	list-style: none;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+    border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+}
+
+#listaComentarios ul li .comment-author.vcard {
+	padding: 15px;
+	background: #F3F4F7;
+}
+
+#listaComentarios ul li .comment-author img {
+	margin: 0 10px 0 0;
+	border-radius: 50px;
+}
+
+#listaComentarios ul li .comment-awaiting-moderation {
+	font-size: 12px;
+	color: #666;
+	margin: 10px 0 0 0;
+	width: 100%;
+	display: inline-block;
+}
+
+#listaComentarios ul li .commentmetadata a {
+	font-size: 11px;
+    color: #666;
+    margin: 15px 0;
+    width: 100%;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+#listaComentarios ul li .commentmetadata a.comment-edit-link {
+	display: none;
+}
+
+#listaComentarios ul li .reply {
+	display: none;
+}
+
+#listaComentarios ul li p {
+	margin: 0 0 15px 0;
+	padding: 0 15px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+/* Formulário de Comentário */
+
+#boxComentario {
+	margin: 0;
+}
+
+#boxComentario span {
+	width: 100%;
+    display: inline-block;
+    color: #3f3f3e;
+    margin: 0px 0 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#boxComentario .logged-in-as a {
+	font-size: 12px;
+}
+
+#boxComentario textarea {
+	width: 100%;
+	padding: 12px;
+	border: solid 1px #dfdfdf;
+	font-size: 13px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+#boxComentario input[type='text'] {
+	width: 100%;
+	padding: 12px;
+	border: solid 1px #dfdfdf;
+	font-size: 13px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+#boxComentario .campoNome {
+	padding: 0 5px 0 0;
+}
+
+#boxComentario .campoEmail {
+	padding: 0 0 0 5px;
+}
+
+#boxComentario .comment-form-cookies-consent {
+	display: inline-block;
+	width: 100%;
+	margin: 10px 0;
+}
+
+#boxComentario .comment-form-cookies-consent input {
+	margin: 3px 5px 0 0;
+	float: left;
+}
+
+#boxComentario .comment-form-cookies-consent label {
+	font-size: 12px;
+	font-weight: normal;
+	cursor: pointer;
+	float: left;
+}
+
+#boxComentario .form-submit {
+	display: flex;
+	justify-content: center;
+}
+
+#boxComentario .form-submit input {
+	display: inline-block;
+    background: #AB1431;
+    color: #fff;
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 0;
+	border-radius: 15px;
+}

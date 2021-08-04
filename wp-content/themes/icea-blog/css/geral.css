@@ -1,0 +1,191 @@
+* { 
+	outline: none!important;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.container-fluid {
+	padding: 0!important;
+}
+
+a:active, 
+a:checked,
+a:focus, 
+a:hover { 
+	outline: none!important; 
+	text-decoration: none;
+}
+
+body { 
+	font-family: 'Work Sans', sans-serif;
+	margin:0; 
+	padding:0;
+}
+
+.clear { 
+	clear:both;
+}
+
+.none {
+	display: none!important;
+}
+
+img { 
+	max-width:100%!important; 
+	height:auto; 
+}
+
+/* Alinhamentos de Conteúdo */
+
+.aligncenter,
+.alignleft,
+.alignright {
+    display: block;
+    padding: 0;
+}
+
+.aligncenter {
+    float: none;
+    margin: .5em auto 1em;
+}
+
+.alignright {
+    float: right;
+    margin: .5em 0 1em 1em;
+}
+
+.alignleft {
+    float: left;
+    margin: .5em 1em 1em 0;
+}
+
+.wp-caption {
+	max-width: 100%;
+}
+
+.wp-caption-text {
+	text-align: center;
+    font-size: 12px;
+	margin: 10px 0 0 0;
+}
+
+/* FONTES */
+
+a { 
+	text-decoration:none!important; 
+}
+
+a:hover { 
+	text-decoration:none; 
+}
+
+p, span, li {
+	color: #828282;
+	font-size: 14px;
+	line-height: 180%;
+}
+
+strong {
+	color: #828282;
+}
+
+/*********************************************
+** Botão
+*********************************************/
+
+.botaoGeral {
+	background: #AB1431;;
+	border-radius: 10px;
+	padding: 10px 30px;
+	border: 0;
+	color: white!important;
+	font-weight: 500;
+	font-size: 15px;
+	display: inline-block;
+}
+
+/*********************************************
+** Hover Zoom
+*********************************************/
+
+.hoverZoom {
+	transition: all 0.2s linear;
+}
+
+.hoverZoom:hover {
+	transform: scale(1.03);
+}
+
+
+/* Newsletter */
+/* CSS Document */
+
+#entreEmContato {
+    margin: 40px 0 120px 0;
+    background: #F8F9FA;
+}
+
+#contato {
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+}
+
+#entreEmContato .container {
+    margin-left: -35px;
+    padding: 50px 0 40px 0;
+}
+
+/* Icone envelope */
+#entreEmContato .imagem i {
+    font-size: 92px;
+    color: #415364;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+/* Formulário */
+#entreEmContato .formulario p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:#828282
+}
+
+#wpforms-form-188 .wpforms-submit-container button {
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    background-color: #AB1431;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline {
+    font-family: 'Montserrat', sans-serif;
+    color: #828282;
+}
+
+/* Submit Botão */
+#entreEmContato .formulario .wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+	
+	/* Contato */
+	#entreEmContato .container {
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+	/* Envelope Contato */
+	#entreEmContato .imagem {
+		margin-bottom: 30px;
+	}
+
+	#entreEmContato .imagem i {
+		display: flex;
+		justify-content: center;
+		padding-left: 50px;
+	}
+}

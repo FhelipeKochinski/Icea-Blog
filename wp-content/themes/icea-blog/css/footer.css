@@ -1,0 +1,198 @@
+/*********************************************
+** Footer 
+*********************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#footer {
+	float: left;
+	width: 100%;
+	padding: 40px 0;
+	background: #415364;
+	background-size: cover;
+}
+
+#footer .container {
+	position: relative;
+}
+
+/* Logo */
+
+#footer #logoFooter{
+	position: absolute;
+}
+/* Botão Subir */
+
+#footer .botaoSubir {
+	position: absolute;
+	right: 15px;
+	top: -60px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #AB1431;
+	cursor: pointer;
+}
+
+#footer .botaoSubir i {
+	color: #fff;
+	font-size: 30px;
+	line-height: 100%;
+	margin-top: -5px;
+}
+
+/* Título */
+
+#footer .tituloFooter {
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding-bottom: 5px;
+	border-bottom: solid 7px #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/* Menus */
+
+#footer .menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#footer .menu ul li {
+	color: #fff;
+	list-style: disc!important;
+}
+
+#footer .menu ul li a {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+/* Contatos */
+
+#footer .contatos a {
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 5px;
+}
+
+#footer .contatos a i {
+	font-size: 20px;
+	color: #fff;
+	margin-right: 8px;
+}
+
+#footer .contatos a span {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500px;
+}
+
+/* Redes Sociais */
+
+#footer .redesSociais {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+#footer .redesSociais a i {
+	color: #fff;
+	font-size: 28px;
+	transition: all 0.1s linear 0s;
+	margin-top: 13px;
+	padding-left: 15px;
+}
+
+#footer .redesSociais a .facebook {
+	padding: 0;
+}
+
+#footer .redesSociais a i:hover {
+	transform: scale(1.1);
+}
+
+#footer .redesSociais #logoFooter {
+	float: left;
+	margin-top: 25px;
+}
+
+/* Endereço */
+
+#footer .enderecoFooter {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	border-top: 1px solid #F2F2F2;
+	padding-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+#footer .enderecoFooter span {
+	color: #fff;
+}
+
+/* Dados Footer div */
+
+#footer .dadosFooter {
+	width: 100%;
+	float: left;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* Sub Footer */
+
+#subfooter {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+	
+	#footer {
+		padding: 30px 0!important;
+	}
+
+	#footer .menu,
+	#footer .contatos {
+		float: left;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	#footer .redesSociais {
+		float: left;
+		width: 100%;
+	}
+	
+	/* Logo */
+	#footer #logoFooter {
+		position: static;
+		padding-bottom: 25px;
+	}
+
+	/* Dados */
+	#footer .dadosFooter{
+		display: inline-block;
+	} 
+}
